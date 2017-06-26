@@ -14,13 +14,14 @@ export default class Slideshow extends Component{
      <img className='text-center' width={900} height={300} alt="900x300" src={profilePic}/>
      <Carousel.Caption className='caption'>
        <h1>Dr. Wali Gauvin</h1>
+       <hr />
      </Carousel.Caption>
    </Carousel.Item>
    <Carousel.Item>
      <img width={900} height={300} alt="900x300" src={heart}/>
      <Carousel.Caption>
-       <h3>Second slide label</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <h3>Mending Hearts</h3>
+       <p>All-Shapes-and-Sizes</p>
      </Carousel.Caption>
    </Carousel.Item>
    <Carousel.Item>
