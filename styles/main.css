@@ -25,5 +25,7 @@ height: 100px
 ol.carousel-indicators {
   display: none;
 }
-.slideshow {
+.Hillary {
+  height: 50%;
+  width: 50%
 }
