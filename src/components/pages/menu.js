@@ -4,7 +4,7 @@ import { Nav, Navbar, NavItem} from 'react-bootstrap'
 export default class Menu extends Component{
   render(){
     return(
-        <Navbar collapseOnSelect>
+        <Navbar collapseOnSelect inverse>
           <Navbar.Header>
             <Navbar.Brand>
               <a href='/'>SaluD/Os</a>

@@ -3,6 +3,7 @@ import {Carousel} from 'react-bootstrap'
 import profilePic from '../../../images/wali gauvin profile.jpeg';
 import heart from '../../../images/heart-1616463__340.jpg'
 import healthyHeartLogo from '../../../images/healthy-heart-logo.png'
+import heartECG from '../../../images/african-2027619__340.png'
 
 export default class Slideshow extends Component{
   render(){
@@ -12,8 +13,7 @@ export default class Slideshow extends Component{
    <Carousel.Item>
      <img className='text-center' width={900} height={300} alt="900x300" src={profilePic}/>
      <Carousel.Caption className='caption'>
-       <h3>Dr. Wali Gauvin</h3>
-       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+       <h1>Dr. Wali Gauvin</h1>
      </Carousel.Caption>
    </Carousel.Item>
    <Carousel.Item>
@@ -24,10 +24,9 @@ export default class Slideshow extends Component{
      </Carousel.Caption>
    </Carousel.Item>
    <Carousel.Item>
-     <img width={900} height={300} alt="900x300" src={healthyHeartLogo}/>
+     <img width={900} height={300} alt="900x300" src={heartECG}/>
      <Carousel.Caption>
-       <h3>Third slide label</h3>
-       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+
      </Carousel.Caption>
    </Carousel.Item>
  </Carousel>
