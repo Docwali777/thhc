@@ -13,10 +13,10 @@ class App extends Component{
         <div className='container'>
 
           <div className='row'></div>
-<div className='col-md-3 text-center'>
-            <img className='healthyHeartLogo' src={healthyHeartLogo} />
+<div className='col-md-6 col-lg-3'>
+            <img className='healthyHeartLogo text-center' src={healthyHeartLogo} />
 </div>
-<div className='col-md-9'>
+<div className='col-md-6 col-lg-9'>
       <Slideshow />
 </div>
         </div>
