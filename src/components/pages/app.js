@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Menu from './menu'
 import '../../../styles/main.css'
 import Slideshow from './slideshow'
 import healthyHeartLogo from '../../../images/healthy-heart-logo.png'
@@ -8,11 +7,12 @@ import healthyHeartLogo from '../../../images/healthy-heart-logo.png'
 class App extends Component{
   render(){
     return(
-      <div>
-        <Menu />
         <div className='container'>
-
-          <div className='row'></div>
+        <div className='text-center'>
+            <h3>Tele: 703-456-4706</h3>
+        </div>
+        <hr />
+          <div className='row'>
 <div className='col-md-6 col-lg-3 text-center'>
             <img className='healthyHeartLogo' src={healthyHeartLogo} />
 </div>
@@ -21,6 +21,9 @@ class App extends Component{
 </div>
         </div>
         <hr />
+
+          <h1 className='text-center'>Pediatric Cardiology <br/>and <br/>Pediatric Nutrition and Fitness</h1>
+
       </div>
     )
   }

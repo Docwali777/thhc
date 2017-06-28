@@ -11,7 +11,7 @@ div.carousel-inner {
 
 img {
   margin: auto;
-  height: 200px;
+  /*height: 200px;*/
   width: auto;
 }
 
@@ -24,8 +24,4 @@ height: 100px
 }
 ol.carousel-indicators {
   display: none;
-}
-.Hillary {
-  height: 50%;
-  width: 50%
 }

@@ -3,7 +3,7 @@ import {Carousel} from 'react-bootstrap'
 import profilePic from '../../../images/wali gauvin profile.jpeg';
 import heart from '../../../images/heart-1616463__340.jpg'
 import healthyHeartLogo from '../../../images/healthy-heart-logo.png'
-import Hillary from '../../../images/Hillary_Hernandez.jpeg'
+import Hillary from '../../../images/heart-ecg.png'
 
 export default class Slideshow extends Component{
   render(){
@@ -25,11 +25,7 @@ export default class Slideshow extends Component{
      </Carousel.Caption>
    </Carousel.Item>
    <Carousel.Item>
-     <img className='Hillary' src={Hillary}/>
-     <Carousel.Caption>
-       <h1>Hillary Hernandez</h1>
-       <hr/>
-     </Carousel.Caption>
+     <img width={900} height={300} alt="900x300" className='hillary' src={Hillary}/>
    </Carousel.Item>
  </Carousel>
     </div>

@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.static('public'))
 
-app.get('/', (req, res)=>{
+app.get('/*', (req, res)=>{
   res.sendFile(express.resolve(__dirname, 'public', 'index.html'))
 })
 
